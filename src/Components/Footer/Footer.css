@@ -1,0 +1,138 @@
+
+.footer {
+    margin-top: 128px;
+    background: #232536;
+ }
+ 
+ .footer__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+ }
+ 
+ .footer__link {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+ }
+ 
+ .footer__div--title {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    align-items: center;
+    letter-spacing: -2px;
+    width: 562px;
+    color: #FFFFFF;
+    margin: 0;
+    display: inline-block;
+ }
+ 
+ .footer__div--2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ .footer__item {
+    padding-left: 24px;
+ }
+ 
+ .div__subscribe {
+    background: #353642e9;
+    display: flex;
+    align-items: center;
+    padding: 80px 64px;
+ }
+ 
+ .footer__container {
+    padding: 59px 80px 56px 80px ;
+ }
+ 
+ .input {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    align-items: center;
+    color: #6D6E76;  
+    padding: 14px 162px 14px 25px ;
+    background: #353642e9;
+ }
+ 
+ .input:valid {
+    color: green;
+    border:1px solid green;
+ }
+ 
+ .input:invalid {
+    color: red;
+    border: 1px solid red;
+ }
+ 
+ .footer__link--sub {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    padding: 16px 48px ;
+    color: #232536;
+    background: #FFD050;
+    text-decoration: none;
+    transition: all 0.5s ease;
+ }
+ 
+ .footer__link--sub:hover {
+    color: #FFD050;
+    background: #232536;
+ }
+ 
+ .footer__link--sub:active {
+    color: #232536;
+    background: #FFD050;
+    opacity: 0.5;
+    transition: none;
+ }
+ 
+ .footer__text--fintown {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 0;
+ }
+ 
+ .link {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-decoration: none;
+ }
+ 
+ .other {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 48px;
+ }
+ 
+ .web {
+    padding-right: 26px;
+ }
+
+ .footer__container {
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+ }
