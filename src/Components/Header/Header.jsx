@@ -12,7 +12,7 @@ function Header() {
                 <ul class="header__list">
                     <li class="header__item">
                         <a class="header__item--link" href="#">
-                            Home
+                            Home12
                         </a>
                     </li>
                     <li class="header__item">
